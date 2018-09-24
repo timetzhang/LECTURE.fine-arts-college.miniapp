@@ -1,0 +1,65 @@
+<!-- 功能(名称)：首页
+说明：我的第一个APP的首页
+作者：tt
+时间：2018-9-13 -->
+
+<view class="page">
+  <view id="head" class="top item-first">
+    <view class="headimg-view">
+      <image class="headimg" src="/images/head.jpg"></image>
+    </view>
+    <view class="user-view">
+      <text class="nickname">\ntt\n</text>
+      <text class="username">微信号:fantastfusion</text>
+    </view>
+    <view class="qr-view">
+      <image class="qrimg" src="/images/qr.png"></image>
+    </view>
+  </view>
+  <view id="wallet" class="item item-first">
+    <image class="icon" src="/images/wallet.png"></image>
+    钱包
+  </view>
+  <view id="fav" class="item item-first">
+    <image class="icon" src="/images/fav.png"></image>
+    收藏
+  </view>
+  <view id="album" class="item">
+    <image class="icon" src="/images/album.png"></image>
+    相册
+  </view>
+  <view id="card-bag" class="item">
+    <image class="icon" src="/images/cardbag.png"></image>
+    卡包
+  </view>
+  <view id="emoji" class="item">
+    <image class="icon" src="/images/emoji.png"></image>
+    表情
+  </view>
+  <view id="config" class="item item-first">
+    <image class="icon" src="/images/config.png"></image>
+    设置
+  </view>
+</view>
+
+<!-- 注释
+这是我2018-9-13编写的 “导航栏” Navigator -->
+
+<view class="nav">
+  <view id="wechat" bindtap="wechatTap" class="nav-btn">
+    <image class="nav-img" src="/images/nav/wechat.png"></image>
+    <view>微信</view>
+  </view>
+  <view id="contact" bindtap="contactTap" class="nav-btn">
+    <image class="nav-img" src="/images/nav/contact.png"></image>
+    <view>通讯录</view>
+  </view>
+  <view id="discover" bindtap="discoverTap" class="nav-btn">
+    <image class="nav-img" src="/images/nav/discover.png"></image>
+    <view>发现</view>
+  </view>
+  <view id="my" bindtap="myTap" class="nav-btn">
+    <image class="nav-img" src="/images/nav/my.png"></image>
+    <view>我</view>
+  </view>
+</view>

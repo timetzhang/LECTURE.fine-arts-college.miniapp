@@ -1,0 +1,13 @@
+.textbox{
+  border: 1px solid #555;
+  margin:10px;
+  border-radius: 8px;
+  font-size:17px;
+  line-height: 24px;
+  height:30px;
+  padding:10px;
+}
+
+.switch{
+  margin-left:10px;
+} 

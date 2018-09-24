@@ -1,0 +1,184 @@
+<view class="page">
+  <view class="loader">
+    <view class="ball-pulse">
+      <view></view>
+      <view></view>
+      <view></view>
+    </view>
+  </view>
+  <view class="loader">
+    <view class="ball-pulse-sync">
+      <view></view>
+      <view></view>
+      <view></view>
+    </view>
+  </view>
+  <view class="loader">
+    <view class="ball-scale">
+      <view></view>
+      <view></view>
+      <view></view>
+    </view>
+  </view>
+
+  <view class="loader">
+    <view class="ball-rotate">
+      <view></view>
+    </view>
+  </view>
+
+  <view class="loader">
+    <view class="ball-clip-rotate">
+      <view></view>
+    </view>
+  </view>
+
+  <view class="loader">
+    <view class="ball-clip-rotate-pulse">
+      <view></view>
+      <view></view>
+    </view>
+  </view>
+  <view>sdfsdf</view>
+  <view class="loader">
+    <view class="ball-scale-ripple">
+      <view></view>
+    </view>
+  </view>
+
+  <view class="loader">
+    <view class="ball-scale-ripple-multiple">
+      <view></view>
+      <view></view>
+      <view></view>
+    </view>
+  </view>
+  <view>sdfsdf</view>
+  <view>sdfsdf</view>
+  <view>sdfsdf</view>
+  <view class="loader">
+    <view class="ball-beat">
+      <view></view>
+      <view></view>
+      <view></view>
+      <view></view>
+      <view></view>
+    </view>
+  </view>
+  <view>sdfsdf</view>
+  <view class="loader">
+    <view class="ball-scale-multiple">
+      <view></view>
+      <view></view>
+      <view></view>
+    </view>
+  </view>
+  <view>sdfsdf</view>
+  <view>sdfsdf</view>
+  <view class="loader">
+    <view class="ball-triangle-path">
+      <view></view>
+      <view></view>
+      <view></view>
+    </view>
+  </view>
+  <view>sdfsdf</view>
+  <view>sdfsdf</view>
+  <view>sdfsdf</view>
+  <view class="loader">
+    <view class="ball-pulse-rise">
+      <view></view>
+      <view></view>
+      <view></view>
+      <view></view>
+    </view>
+  </view>
+  <view>sdfsdf</view>
+  <view>sdfsdf</view>
+  <view>sdfsdf</view>
+  <view class="loader">
+    <view class="ball-grid-beat">
+      <view></view>
+      <view></view>
+      <view></view>
+      <view></view>
+      <view></view>
+      <view></view>
+      <view></view>
+      <view></view>
+      <view></view>
+    </view>
+  </view>
+  <view>sdfsdf</view>
+  <view>sdfsdf</view>
+  <view class="loader">
+    <view class="ball-grid-pulse">
+      <view></view>
+      <view></view>
+      <view></view>
+      <view></view>
+      <view></view>
+      <view></view>
+      <view></view>
+      <view></view>
+      <view></view>
+    </view>
+  </view>
+  <view>sdfsdf</view>
+  <view>sdfsdf</view>
+  <view class="loader">
+    <view class="ball-spin-fade-loader">
+      <view></view>
+      <view></view>
+      <view></view>
+      <view></view>
+      <view></view>
+      <view></view>
+      <view></view>
+      <view></view>
+    </view>
+  </view>
+
+
+  <view>sdfsdf</view>
+  <view class="loader">
+    <view class="ball-zig-zag">
+      <view></view>
+      <view></view>
+    </view>
+  </view>
+  <view>sdfsdf</view>
+  <view class="loader">
+    <view class=" line-scale">
+      <view></view>
+      <view></view>
+      <view></view>
+      <view></view>
+    </view>
+  </view>
+  <view>sdfsdf</view>
+  <view class="loader">
+    <view class="triangle-skew-spin">
+      <view></view>
+    </view>
+  </view>
+  <view>sdfsdf</view>
+  <view class="loader">
+    <view class="pacman">
+      <view></view>
+      <view></view>
+      <view></view>
+      <view></view>
+      <view></view>
+    </view>
+  </view>
+
+
+  <view>sdfsdf</view>
+  <view class="loader">
+    <view class="cube-transition">
+      <view></view>
+      <view></view>
+    </view>
+  </view>
+</view>

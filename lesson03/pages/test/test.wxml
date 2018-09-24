@@ -1,0 +1,23 @@
+<view class="topnav">
+  <view class="topnav-item" bindtap="nav1Tap">
+    热点
+  </view>
+  <view class="topnav-item" bindtap="nav2Tap">
+    发现
+  </view>
+  <view class="topnav-item" bindtap="nav3Tap">
+    历史
+  </view>
+</view>
+
+<view id="page1" class="page {{isPage1Hidden}}">
+page 1 content
+</view>
+
+<view id="page2" class="page {{isPage2Hidden}}">
+page 2 content
+</view>
+
+<view id="page3" class="page {{isPage3Hidden}}">
+page 3 content
+</view>

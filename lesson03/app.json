@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/contact/contact",
+    "pages/discover/discover",
+    "pages/wechat/wechat",
+    "pages/reg/reg",
+    "pages/misc/misc",
+    "pages/test/test",
+    "pages/one-second/one-second"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "我的APP",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,58 @@
+<view class="photowall">
+  <view>
+    <image src="/images/photowall/image-01.jpg" mode='widthFix'></image>
+    Wah!!
+  </view>
+  <view>
+    <image src="/images/photowall/image-02.jpg" mode='widthFix'></image>
+    心情真好
+  </view>
+  <view>
+    <image src="/images/photowall/image-03.jpg" mode='widthFix'></image>
+    Wah!!
+  </view>
+  <view>
+    <image src="/images/photowall/image-04.jpg" mode='widthFix'></image>
+    Wah!!
+  </view>
+  <view>
+    <image src="/images/photowall/image-05.jpg" mode='widthFix'></image>
+    心情真好
+  </view>
+  <view>
+    <image src="/images/photowall/image-06.jpg" mode='widthFix'></image>
+    Wah!!
+  </view>
+  <view>
+    <image src="/images/photowall/image-07.jpg" mode='widthFix'></image>
+    Wah!!
+  </view>
+  <view>
+    <image src="/images/photowall/image-02.jpg" mode='widthFix'></image>
+    心情真好
+  </view>
+  <view>
+    <image src="/images/photowall/image-01.jpg" mode='widthFix'></image>
+    Wah!!
+  </view>
+  <view>
+    <image src="/images/photowall/image-02.jpg" mode='widthFix'></image>
+    心情真好
+  </view>
+  <view>
+    <image src="/images/photowall/image-01.jpg" mode='widthFix'></image>
+    Wah!!
+  </view>
+  <view>
+    <image src="/images/photowall/image-01.jpg" mode='widthFix'></image>
+    Wah!!
+  </view>
+  <view>
+    <image src="/images/photowall/image-02.jpg" mode='widthFix'></image>
+    心情真好
+  </view>
+  <view class="messy">
+    <image src="/images/photowall/image-01.jpg" mode='widthFix'></image>
+    Wah!!
+  </view>
+</view>

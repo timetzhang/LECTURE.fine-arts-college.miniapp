@@ -1,0 +1,35 @@
+.page{
+  background: #000;
+  height:500px;
+}
+
+.single view {
+  color: rgba(138, 138, 138, 0.6);
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: calc(50% - 60px);
+  left: calc(50% - 60px);
+  border-radius: 50%;
+  box-shadow: 0 0 3px 1px rgba(255, 255, 255, 0.8);
+  z-index: 3;
+  opacity: 0;
+  animation: halo 1s infinite ease-in-out;
+}
+
+@keyframes halo {
+  0% {
+    opacity: 0;
+    transform: scale(0.1);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+}

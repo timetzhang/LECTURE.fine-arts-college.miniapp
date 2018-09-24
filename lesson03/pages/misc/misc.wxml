@@ -1,0 +1,24 @@
+<view class="card">
+  <view class="card-img">
+    <view class="card-mask">
+      <view>Like!</view>
+      <view>Comment</view>
+    </view>
+    <image src="/images/head.jpg"></image>
+  </view>
+  <view class="card-name">
+    大家好，我是Alison
+  </view>
+</view>
+
+<view class="btn1 {{btn1Taped ? 'btn1-ani' : ''}}" bindtap="btn1Tap">点我</view>
+
+<image class="img" src='/images/fan1.png'></image>
+
+<view class="page">
+  <view class="text">Hello</view>
+
+  <view class="para">Architecture. IBM mainframes access I/O devices including DASD through channels, subordinate mini-processor. Channel programs write to, read from, and control the given device.. CTR (CHR) The operating system uses a four byte relative track and record
+    (TTR) for some access methods and for others an eight-byte extent</view>
+
+</view>

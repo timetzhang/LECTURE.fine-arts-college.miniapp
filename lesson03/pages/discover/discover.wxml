@@ -1,0 +1,37 @@
+<view style="background-color:{{bgcolor}}; height: 500px">
+
+  <swiper autoplay='{{autoplay}}' interval='{{interval}}' duration='{{duration}}' bindchange='imgChange'>
+    <view wx:for='{{imageUrls}}' wx:key="{{item.index}}">
+      <swiper-item>
+        <image data-color="{{item.color}}" src="{{item.url}}" width="355" height="150" />
+      </swiper-item>
+    </view>
+  </swiper>
+
+  <view wx:for='{{txts}}' wx:key='{{item.index}}'>
+    <view>{{item}}</view>
+  </view>
+
+</view>
+
+<!-- 注释
+这是我2018-9-13编写的 “导航栏” Navigator -->
+
+<view class="nav">
+  <view id="wechat" bindtap="wechatTap" class="nav-btn">
+    <image class="nav-img" src="/images/nav/wechat.png"></image>
+    <view>微信</view>
+  </view>
+  <view id="contact" bindtap="contactTap" class="nav-btn">
+    <image class="nav-img" src="/images/nav/contact.png"></image>
+    <view>通讯录</view>
+  </view>
+  <view id="discover" bindtap="discoverTap" class="nav-btn">
+    <image class="nav-img" src="/images/nav/discover.png"></image>
+    <view>发现</view>
+  </view>
+  <view id="my" bindtap="myTap" class="nav-btn">
+    <image class="nav-img" src="/images/nav/my.png"></image>
+    <view>我</view>
+  </view>
+</view>

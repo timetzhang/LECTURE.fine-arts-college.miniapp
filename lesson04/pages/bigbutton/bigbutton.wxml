@@ -1,0 +1,3 @@
+<view>
+  <button class="button big green">BUTTON<view class="meta">Hello</view></button>
+</view>

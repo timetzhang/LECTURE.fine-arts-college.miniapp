@@ -1,0 +1,33 @@
+<audio src="/audio/kick.mp3" controls></audio>
+<audio src="/audio/snare.mp3" controls></audio>
+
+<icon type="cancel" color='purple' size="80" /> 登录成功
+
+<view class="btn">
+  >
+</view>
+<view class="btn">
+  s
+</view>>
+
+<!-- 注释
+这是我2018-9-13编写的 “导航栏” Navigator -->
+
+<view class="nav">
+  <view id="wechat" bindtap="wechatTap" class="nav-btn">
+    <image class="nav-img" src="/images/nav/wechat.png"></image>
+    <view>微信</view>
+  </view>
+  <view id="contact" bindtap="contactTap" class="nav-btn">
+    <image class="nav-img" src="/images/nav/contact.png"></image>
+    <view>通讯录</view>
+  </view>
+  <view id="discover" bindtap="discoverTap" class="nav-btn">
+    <image class="nav-img" src="/images/nav/discover.png"></image>
+    <view>发现</view>
+  </view>
+  <view id="my" bindtap="myTap" class="nav-btn">
+    <image class="nav-img" src="/images/nav/my.png"></image>
+    <view>我</view>
+  </view>
+</view>

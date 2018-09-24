@@ -1,0 +1,45 @@
+<input class='textbox' type='text' placeholder="请输入用户名" />
+<input class='textbox' type='password' placeholder="请输入密码" />
+<input class='textbox' type='number' placeholder="请输入手机号码" />
+
+<switch class="switch">是否单身</switch>
+
+<view>喜欢的类型</view>
+<checkbox-group>
+  <checkbox>知性</checkbox>
+  <checkbox>帅气</checkbox>
+  <checkbox>油菜花</checkbox>
+  <checkbox>温婉</checkbox>
+</checkbox-group>
+
+<view>不喜欢的类型</view>
+<checkbox-group>
+  <checkbox>直男</checkbox>
+  <checkbox>邋遢</checkbox>
+  <checkbox>小气</checkbox>
+  <checkbox>老司机</checkbox>
+</checkbox-group>
+
+<view>你是大几？</view>
+<radio-group>
+  <radio>大一</radio>
+  <radio>大二</radio>
+  <radio>大三</radio>
+  <radio>大四</radio>
+</radio-group>
+
+<view>年龄</view>
+<slider min='0' max='100' step='1' show-value='true'></slider>
+
+<view>你的城市</view>
+<picker value='{{nationsIndex}}' range='{{nations}}'>
+  <view>
+    请选择
+  </view>
+</picker>
+
+<picker mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="bindTimeChange">
+  <view class="picker">
+    当前选择: {{time}}
+  </view>
+</picker>

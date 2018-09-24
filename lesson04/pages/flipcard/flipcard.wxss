@@ -1,0 +1,38 @@
+/* 3D翻转 */
+
+.flip-3d {
+  perspective: 1200px;
+}
+
+.flip-3d .card {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: 1s transform;
+  font-size: 20px;
+  margin: 25px;
+}
+
+.flip-3d .card image {
+  width: 100%;
+}
+
+.flip-3d .card .text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  transform: rotateY(0.5turn);
+  background: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  padding-top: 45%;
+  opacity: 0.6;
+  transition: 1s 0.5s opacity;
+}
+
+.flip-3d:hover .card {
+  transform: rotateY(0.5turn);
+}
+
+.flip-3d:hover .card .text {
+  opacity: 1;
+}
